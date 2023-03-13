@@ -1,0 +1,288 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('image/aaaa.jpg');
+    background-size: 100%;
+  }
+
+  header {
+    background-size: 100%;
+    
+    background-color: #fff;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-image: url('image/aaaa.jpg');
+  }
+
+  .logo h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+
+  nav li {
+    margin-right: 20px;
+  }
+
+  nav li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+
+  nav li a:hover {
+    color: #007bff;
+  }
+
+  .hero {
+    background-image: url('image/logo.png');
+    background-size: 100%;
+    background-position: center;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+
+  .hero h2 {
+    margin-top: 0;
+    font-size: 36px;
+  }
+
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .hero button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .hero2 {
+    background-image: url('image/99k2.png');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+
+  .hero2 h2 {
+    margin-top: 0;
+    font-size: 36px;
+  }
+
+  .hero2 p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .hero2 button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .features {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+  }
+
+  .features div {
+    text-align: center;
+    flex-basis: 30%;
+    font-size: 18px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .features h3 {
+    margin-top: 0;
+  }
+
+  .testimonials {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 50px 0;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .testimonial {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-size: 25px;
+  }
+
+  .testimonial p {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+
+  .testimonial h4 {
+    margin: 0;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .testimonials11 {
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    padding: 10px 0;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .testimonial11 {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+
+  .testimonial11 p {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+
+  .testimonial11 h4 {
+    margin: 0;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  /* CSS cho các nút bấm */
+  .social-btn {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    background-color: #ff5722;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(255, 87, 34, 0.5);
+    transition: all 0.3s ease-in-out;
+  }
+
+  /* CSS cho các nút bấm khi di chuột qua */
+  .social-btn:hover {
+    background-color: #fff;
+    color: #ff5722;
+    box-shadow: 0 5px 15px rgba(255, 87, 34, 0.2);
+  }
+
+  /* CSS cho các nút bấm khi nhấn */
+  .social-btn:active {
+    background-color: #ff5722;
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(255, 87, 34, 0.5);
+  }
+
+  /* CSS cho nút bấm Facebook */
+  .facebook-btn {
+    background-color: #3b5998;
+    box-shadow: 0 5px 15px rgba(59, 89, 152, 0.5);
+  }
+
+  .facebook-btn:hover {
+    background-color: #fff;
+    color: #3b5998;
+    box-shadow: 0 5px 15px rgba(59, 89, 152, 0.2);
+  }
+
+  .facebook-btn:active {
+    background-color: #3b5998;
+    color: #fff;
+    box-shadow: 0 2px 5px rgba(59, 89, 152, 0.5);
+  }
+
+  .button-63 {
+    align-items: center;
+    background-image: linear-gradient(14deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    border: 0;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 16px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 80%;
+    min-width: 100px;
+    padding: 19px 20px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+
+  .button-63:active,
+  .button-63:hover {
+    outline: 0;
+  }
+
+  @media (min-width: 768px) {
+    .button-63 {
+      font-size: 16px;
+      min-width: 180px;
+    }
+  }
+
+  .button-64 {
+    text-align: center;
+    align-items: center;
+    background-image: linear-gradient(14deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    border: 0;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 16px;
+    justify-content: center;
+    width: 500px;
+    height: 80px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+
+  .button-64:active,
+  .button-64:hover {
+    outline: 0;
+  }
+
+  @media (min-width: 768px) {
+    .button-64 {
+      font-size: 35px;
+      min-width: 180px;
+    }
+  }
